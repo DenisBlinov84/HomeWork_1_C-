@@ -7,11 +7,13 @@ string s_b = Console.ReadLine();
 int a = int.Parse(s_a);
 int b = int.Parse(s_b);
 
-if(a>b){
-    Console.WriteLine ("{0} наибольшее число" , a );
-    Console.WriteLine ("{0} наименьшее число" , b );
+if (a > b)
+{
+    Console.WriteLine("{0} наибольшее число", a);
+    Console.WriteLine("{0} наименьшее число", b);
 }
-else{
-    Console.WriteLine ("{0} наибольшее число" , b );
-    Console.WriteLine ("{0} наименьшее число" , a );
+else
+{
+    Console.WriteLine("{0} наибольшее число", b);
+    Console.WriteLine("{0} наименьшее число", a);
 }

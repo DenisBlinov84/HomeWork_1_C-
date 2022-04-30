@@ -9,11 +9,13 @@ int a = int.Parse(s_a);
 int b = int.Parse(s_b);
 int c = int.Parse(s_c);
 
-if(a<b){
-    a=b;
+if (a < b)
+{
+    a = b;
 }
-if(a<c){
-    a=c;
+if (a < c)
+{
+    a = c;
 }
-Console.WriteLine ("{0} максимальное число" , a );
+Console.WriteLine("{0} максимальное число", a);
 
