@@ -8,6 +8,6 @@ string s_a = Console.ReadLine();
 double a = double.Parse(s_a);
 double x;
 
-x=1/a;
+x = 1 / a;
 Console.WriteLine(x);
 
