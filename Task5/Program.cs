@@ -1,15 +1,15 @@
 ﻿// Напишите программу вычисления модуля числа.
 
-string s_a = Console.ReadLine();
-int a = int.Parse(s_a);
-int x;
-if (a < 0)
+string s_n_1 = Console.ReadLine();
+int n_1 = int.Parse(s_n_1);
+int i;
+if (n_1 < 0)
 {
-    x = -a;
-    Console.WriteLine(x);
+    i = -n_1;
+    Console.WriteLine(i);
 }
 else
 {
-    x = a;
-    Console.WriteLine(x);
+    i = n_1;
+    Console.WriteLine(i);
 }
