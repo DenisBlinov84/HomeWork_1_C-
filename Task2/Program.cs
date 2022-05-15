@@ -1,21 +1,20 @@
 ﻿// Напишите программу, которая принимает на вход три числа и
 // выдаёт максимальное из этих чисел.
 
-string s_a = Console.ReadLine();
-string s_b = Console.ReadLine();
-string s_c = Console.ReadLine();
+string s_n_1 = Console.ReadLine();
+string s_n_2 = Console.ReadLine();
+string s_n_3 = Console.ReadLine();
 
-int a = int.Parse(s_a);
-int b = int.Parse(s_b);
-int c = int.Parse(s_c);
+int n_1 = int.Parse(s_n_1);
+int n_2 = int.Parse(s_n_2);
+int n_3 = int.Parse(s_n_3);
 
-if (a < b)
+if (n_1 < n_2)
 {
-    a = b;
+    n_1 = n_2;
 }
-if (a < c)
+if (n_1 < n_3)
 {
-    a = c;
+    n_1 = n_3;
 }
-Console.WriteLine("{0} максимальное число", a);
-
+Console.Write($"The number {n_1} is the largest! ");
