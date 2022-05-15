@@ -1,17 +1,17 @@
 ﻿// Напишите программу, которая на вход принимает число (N), 
 // а на выходе показывает все чётные числа от 1 до N.
 
-string s_N = Console.ReadLine();
-int N = int.Parse(s_N);
-int x = 1;
+string s_n_1 = Console.ReadLine();
+int n_1 = int.Parse(s_n_1);
+int i = 2;
 
-while (x <= N)
+while (i <= n_1)
 {
-    if ((x % 2) == 0)
+    if ((i % 2) == 0)
     {
-        Console.Write($"{x} ");
+        Console.Write($"{i} ");
     }
-    x++;
+    i += 2;
 }
 
 
