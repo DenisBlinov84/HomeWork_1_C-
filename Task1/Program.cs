@@ -1,19 +1,21 @@
 ﻿// Напишите программу, которая на вход принимает два числа 
 // и выдаёт, какое число большее, а какое меньшее.
 
-string s_a = Console.ReadLine();
-string s_b = Console.ReadLine();
+string s_n_1 = Console.ReadLine();
+string s_n_2 = Console.ReadLine();
 
-int a = int.Parse(s_a);
-int b = int.Parse(s_b);
+int n_1 = int.Parse(s_n_1);
+int n_2 = int.Parse(s_n_2);
 
-if (a > b)
+if (n_1 > n_2)
 {
-    Console.WriteLine("{0} наибольшее число", a);
-    Console.WriteLine("{0} наименьшее число", b);
+    Console.WriteLine($"The number {n_1} is greater than {n_2}");
+}
+else if(n_1==n_2)
+{
+    Console.WriteLine($"The number {n_1} is equal than {n_2}");
 }
 else
 {
-    Console.WriteLine("{0} наибольшее число", b);
-    Console.WriteLine("{0} наименьшее число", a);
+    Console.WriteLine($"The number {n_2} is greater than {n_1}");
 }
