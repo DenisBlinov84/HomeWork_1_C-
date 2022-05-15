@@ -4,10 +4,10 @@
 // 2 -> 0.5
 // 0.25 -> 4
 
-string s_a = Console.ReadLine();
-double a = double.Parse(s_a);
-double x;
+string s_n_1 = Console.ReadLine();
+double n_1 = double.Parse(s_n_1);
+double i;
 
-x = 1 / a;
-Console.WriteLine(x);
+i = 1 / n_1;
+Console.WriteLine(i);
 
